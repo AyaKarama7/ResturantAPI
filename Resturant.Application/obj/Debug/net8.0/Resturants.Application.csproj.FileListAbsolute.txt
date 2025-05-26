@@ -1,0 +1,15 @@
+F:\ITI\Projects\Resturant\Resturant.Application\bin\Debug\net8.0\Resturants.Application.deps.json
+F:\ITI\Projects\Resturant\Resturant.Application\bin\Debug\net8.0\Resturants.Application.dll
+F:\ITI\Projects\Resturant\Resturant.Application\bin\Debug\net8.0\Resturants.Application.pdb
+F:\ITI\Projects\Resturant\Resturant.Application\bin\Debug\net8.0\Resturants.Domain.dll
+F:\ITI\Projects\Resturant\Resturant.Application\bin\Debug\net8.0\Resturants.Domain.pdb
+F:\ITI\Projects\Resturant\Resturant.Application\obj\Debug\net8.0\Resturants.Application.csproj.AssemblyReference.cache
+F:\ITI\Projects\Resturant\Resturant.Application\obj\Debug\net8.0\Resturants.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITI\Projects\Resturant\Resturant.Application\obj\Debug\net8.0\Resturants.Application.AssemblyInfoInputs.cache
+F:\ITI\Projects\Resturant\Resturant.Application\obj\Debug\net8.0\Resturants.Application.AssemblyInfo.cs
+F:\ITI\Projects\Resturant\Resturant.Application\obj\Debug\net8.0\Resturants.Application.csproj.CoreCompileInputs.cache
+F:\ITI\Projects\Resturant\Resturant.Application\obj\Debug\net8.0\Resturan.C0DF9DBE.Up2Date
+F:\ITI\Projects\Resturant\Resturant.Application\obj\Debug\net8.0\Resturants.Application.dll
+F:\ITI\Projects\Resturant\Resturant.Application\obj\Debug\net8.0\refint\Resturants.Application.dll
+F:\ITI\Projects\Resturant\Resturant.Application\obj\Debug\net8.0\Resturants.Application.pdb
+F:\ITI\Projects\Resturant\Resturant.Application\obj\Debug\net8.0\ref\Resturants.Application.dll

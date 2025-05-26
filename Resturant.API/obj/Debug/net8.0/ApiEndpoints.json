@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "Resturant.API.Controllers.ResturantController",
+    "Method": "GetAll",
+    "RelativePath": "api/Resturant",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resturant.API.Controllers.ResturantController",
+    "Method": "AddResturant",
+    "RelativePath": "api/Resturant",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resturant",
+        "Type": "Resturant.Application.Resturants.Commands.ResturantCreate.ResturantCreateCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resturant.API.Controllers.ResturantController",
+    "Method": "GetById",
+    "RelativePath": "api/Resturant/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resturant.API.Controllers.ResturantController",
+    "Method": "Delete",
+    "RelativePath": "api/Resturant/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resturant.API.Controllers.ResturantController",
+    "Method": "UpdateResturant",
+    "RelativePath": "api/Resturant/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "resturant",
+        "Type": "Resturant.Application.Resturants.Commands.ResturantUpdate.ResturantUpdateCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
