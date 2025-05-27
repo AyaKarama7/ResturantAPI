@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Resturant.Domain.Entities;
 using Resturant.Domain.IRepositories;
 using Resturant.Infrastructure.Data;
 using Resturant.Infrastructure.Repositories;
@@ -15,5 +16,6 @@ public static class ServiceCollectionExtensions
         services.AddDbContext<ResturantDbContext>(options => options.UseSqlServer(connectionString));
         services.AddScoped<IResturantRepository, ResturantRepository>();
         services.AddScoped<IDishRepository, DishRepository>();
+        services.AddIdentityApiEndpoints<User>().AddEntityFrameworkStores<ResturantDbContext>();
     }
 }

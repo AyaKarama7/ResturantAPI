@@ -1,5 +1,7 @@
 using Resturant.Infrastructure.Extensions;
 using Resturant.Application.Extensions;
+using Resturant.Domain.Entities;
+using Resturant.API.Extensions;
 namespace Resturant.API
 {
     public class Program
@@ -8,13 +10,7 @@ namespace Resturant.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-
-            builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
-
+            builder.Services.AddPresentationServices();
             //inject ifrastructure DbContext
             builder.Services.AddInfrastructureServices(builder.Configuration);
 
@@ -30,6 +26,8 @@ namespace Resturant.API
 
             app.UseHttpsRedirection();
 
+            app.MapGroup("api/identity").MapIdentityApi<User>();
+            app.UseAuthentication();
             app.UseAuthorization();
 
 

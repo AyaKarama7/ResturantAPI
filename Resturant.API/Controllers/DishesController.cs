@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Resturant.Application.Dishes.Command.DishCreate;
 using Resturant.Application.Dishes.Command.DishDelete;
@@ -10,6 +11,7 @@ using Resturant.Application.Dishes.Query.GetDishForResturantById;
 namespace Resturant.API.Controllers
 {
     [Route("api/resturant/{resturantId}/dishes")]
+    [Authorize]
     [ApiController]
     public class DishesController(IMediator mediator) : ControllerBase
     {

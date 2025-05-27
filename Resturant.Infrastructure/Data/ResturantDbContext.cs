@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Resturant.Domain.Entities;
 
 namespace Resturant.Infrastructure.Data
 {
-    internal class ResturantDbContext(DbContextOptions<ResturantDbContext> options) :DbContext(options)
+    internal class ResturantDbContext(DbContextOptions<ResturantDbContext> options) :IdentityDbContext<User>(options)
     {
         internal DbSet<Domain.Entities.Resturant> Resturants { get; set; }
         internal DbSet<Dish> Dishes { get; set; }

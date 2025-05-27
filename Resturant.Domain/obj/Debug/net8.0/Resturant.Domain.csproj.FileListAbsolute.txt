@@ -10,3 +10,4 @@ F:\ITI\Projects\Resturant\Resturant.Domain\obj\Debug\net8.0\refint\Resturant.Dom
 F:\ITI\Projects\Resturant\Resturant.Domain\obj\Debug\net8.0\Resturant.Domain.pdb
 F:\ITI\Projects\Resturant\Resturant.Domain\obj\Debug\net8.0\ref\Resturant.Domain.dll
 F:\ITI\Projects\Resturant\Resturant.Domain\obj\Debug\net8.0\Resturant.Domain.sourcelink.json
+F:\ITI\Projects\Resturant\Resturant.Domain\obj\Debug\net8.0\Resturant.Domain.csproj.AssemblyReference.cache

@@ -85,3 +85,5 @@ F:\ITI\Projects\Resturant\Resturant.API\bin\Debug\net8.0\FluentValidation.Depend
 F:\ITI\Projects\Resturant\Resturant.API\bin\Debug\net8.0\MediatR.dll
 F:\ITI\Projects\Resturant\Resturant.API\bin\Debug\net8.0\MediatR.Contracts.dll
 F:\ITI\Projects\Resturant\Resturant.API\obj\Debug\net8.0\Resturant.API.sourcelink.json
+F:\ITI\Projects\Resturant\Resturant.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\ITI\Projects\Resturant\Resturant.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

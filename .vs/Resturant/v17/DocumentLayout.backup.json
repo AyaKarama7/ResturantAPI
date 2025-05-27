@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "F:\\ITI\\Projects\\Resturant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{215C0C60-77F4-4971-8153-2E8C6624FAE5}|Resturant.API\\Resturant.API.csproj|f:\\iti\\projects\\resturant\\resturant.api\\controllers\\dishescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{215C0C60-77F4-4971-8153-2E8C6624FAE5}|Resturant.API\\Resturant.API.csproj|solutionrelative:resturant.api\\controllers\\dishescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{215C0C60-77F4-4971-8153-2E8C6624FAE5}|Resturant.API\\Resturant.API.csproj|f:\\iti\\projects\\resturant\\resturant.api\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{215C0C60-77F4-4971-8153-2E8C6624FAE5}|Resturant.API\\Resturant.API.csproj|solutionrelative:resturant.api\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215C0C60-77F4-4971-8153-2E8C6624FAE5}|Resturant.API\\Resturant.API.csproj|f:\\iti\\projects\\resturant\\resturant.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{215C0C60-77F4-4971-8153-2E8C6624FAE5}|Resturant.API\\Resturant.API.csproj|solutionrelative:resturant.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38563C16-C91F-4FE1-B47A-CC190B6B414C}|Resturant.Domain\\Resturant.Domain.csproj|f:\\iti\\projects\\resturant\\resturant.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38563C16-C91F-4FE1-B47A-CC190B6B414C}|Resturant.Domain\\Resturant.Domain.csproj|solutionrelative:resturant.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DishesController.cs",
-              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\Resturant.API\\Controllers\\DishesController.cs",
-              "RelativeDocumentMoniker": "Resturant.API\\Controllers\\DishesController.cs",
-              "ToolTip": "F:\\ITI\\Projects\\Resturant\\Resturant.API\\Controllers\\DishesController.cs",
-              "RelativeToolTip": "Resturant.API\\Controllers\\DishesController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAXAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\Resturant.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Resturant.Domain\\Entities\\User.cs",
+              "ToolTip": "F:\\ITI\\Projects\\Resturant\\Resturant.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Resturant.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T01:38:00.926Z",
+              "WhenOpened": "2025-05-27T16:07:03.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\Resturant.API\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Resturant.API\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "F:\\ITI\\Projects\\Resturant\\Resturant.API\\Extensions\\ServiceCollectionExtensions.cs*",
+              "RelativeToolTip": "Resturant.API\\Extensions\\ServiceCollectionExtensions.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:36:35.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\Resturant.API\\Program.cs",
+              "RelativeDocumentMoniker": "Resturant.API\\Program.cs",
+              "ToolTip": "F:\\ITI\\Projects\\Resturant\\Resturant.API\\Program.cs",
+              "RelativeToolTip": "Resturant.API\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:36:23.436Z",
               "EditorCaption": ""
             }
           ]
