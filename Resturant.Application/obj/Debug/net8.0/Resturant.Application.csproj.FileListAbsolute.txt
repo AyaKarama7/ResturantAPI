@@ -13,3 +13,4 @@ F:\ITI\Projects\Resturant\Resturant.Application\obj\Debug\net8.0\Resturant.Appli
 F:\ITI\Projects\Resturant\Resturant.Application\obj\Debug\net8.0\refint\Resturant.Application.dll
 F:\ITI\Projects\Resturant\Resturant.Application\obj\Debug\net8.0\Resturant.Application.pdb
 F:\ITI\Projects\Resturant\Resturant.Application\obj\Debug\net8.0\ref\Resturant.Application.dll
+F:\ITI\Projects\Resturant\Resturant.Application\obj\Debug\net8.0\Resturant.Application.sourcelink.json

@@ -17,3 +17,4 @@ F:\ITI\Projects\Resturant\Resturant.Infrastructure\bin\Debug\net8.0\Resturant.Do
 F:\ITI\Projects\Resturant\Resturant.Infrastructure\bin\Debug\net8.0\Resturant.Application.pdb
 F:\ITI\Projects\Resturant\Resturant.Infrastructure\bin\Debug\net8.0\Resturant.Domain.pdb
 F:\ITI\Projects\Resturant\Resturant.Infrastructure\obj\Debug\net8.0\Resturant.Infrastructure.genruntimeconfig.cache
+F:\ITI\Projects\Resturant\Resturant.Infrastructure\obj\Debug\net8.0\Resturant.Infrastructure.sourcelink.json

@@ -19,7 +19,7 @@ namespace Resturant.Application.Resturants.Commands.ResturantDelete
                 logger.LogWarning($"Restaurant with ID {request.Id} not found.");
                 return false;
             }
-            resturantRepository.DeleteAsync(resturant);
+            await resturantRepository.DeleteAsync(resturant);
             return true; ;
         }
     }

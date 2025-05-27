@@ -61,7 +61,7 @@
     "ContainingType": "Resturant.API.Controllers.ResturantController",
     "Method": "UpdateResturant",
     "RelativePath": "api/Resturant/{id}",
-    "HttpMethod": "PUT",
+    "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -74,6 +74,111 @@
         "Name": "resturant",
         "Type": "Resturant.Application.Resturants.Commands.ResturantUpdate.ResturantUpdateCommand",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resturant.API.Controllers.DishesController",
+    "Method": "CreateDish",
+    "RelativePath": "api/resturant/{resturantId}/dishes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resturantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Resturant.Application.Dishes.Command.DishCreate.DishCreateCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resturant.API.Controllers.DishesController",
+    "Method": "GetAllDishesForResturant",
+    "RelativePath": "api/resturant/{resturantId}/dishes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resturantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resturant.API.Controllers.DishesController",
+    "Method": "UpdateDishInResturant",
+    "RelativePath": "api/resturant/{resturantId}/dishes",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resturantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dishId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "dish",
+        "Type": "Resturant.Application.Dishes.Command.DishUpdate.DishUpdateCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resturant.API.Controllers.DishesController",
+    "Method": "DeleteDishInResturant",
+    "RelativePath": "api/resturant/{resturantId}/dishes",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resturantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dishId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resturant.API.Controllers.DishesController",
+    "Method": "GetDishForResturantById",
+    "RelativePath": "api/resturant/{resturantId}/dishes/get-dish-by-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resturantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dishId",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

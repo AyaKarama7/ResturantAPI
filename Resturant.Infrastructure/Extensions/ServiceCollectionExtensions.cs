@@ -14,5 +14,6 @@ public static class ServiceCollectionExtensions
         var connectionString=configuration.GetConnectionString("ResturantDb");
         services.AddDbContext<ResturantDbContext>(options => options.UseSqlServer(connectionString));
         services.AddScoped<IResturantRepository, ResturantRepository>();
+        services.AddScoped<IDishRepository, DishRepository>();
     }
 }

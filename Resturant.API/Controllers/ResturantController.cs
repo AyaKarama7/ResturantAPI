@@ -46,7 +46,7 @@ namespace Resturant.API.Controllers
             int id = await mediator.Send(resturant);
             return CreatedAtAction(nameof(GetById), new { id }, null);
         }
-        [HttpPut("{id:int}")]
+        [HttpPatch("{id:int}")]
         public async Task<IActionResult> UpdateResturant([FromRoute] int id, ResturantUpdateCommand resturant)
         {
             if (resturant == null)
