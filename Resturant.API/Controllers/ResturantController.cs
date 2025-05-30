@@ -6,13 +6,13 @@ using Resturant.Application.Resturants.Commands.ResturantDelete;
 using Resturant.Application.Resturants.Commands.ResturantUpdate;
 using Resturant.Application.Resturants.Query.GetAllResturants;
 using Resturant.Application.Resturants.Query.GetResturantById;
+using Resturant.Domain.Constants;
 
 
 namespace Resturant.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class ResturantController(IMediator mediator) : ControllerBase
     {
         [HttpGet]
@@ -34,6 +34,7 @@ namespace Resturant.API.Controllers
             return Ok(resturant);
         }
         [HttpDelete("{id:int}")]
+        [Authorize(Roles =UserRoles.Owner)]
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
             var IsDeleted = await mediator.Send(new ResturantDeleteCommand(id));
@@ -41,6 +42,7 @@ namespace Resturant.API.Controllers
             return NotFound();
         }
         [HttpPost]
+        [Authorize(Roles =UserRoles.Owner)]
         public async Task<IActionResult> AddResturant(ResturantCreateCommand resturant)
         {
             if (resturant == null)
@@ -51,6 +53,7 @@ namespace Resturant.API.Controllers
             return CreatedAtAction(nameof(GetById), new { id }, null);
         }
         [HttpPatch("{id:int}")]
+        [Authorize(Roles = UserRoles.Owner)]
         public async Task<IActionResult> UpdateResturant([FromRoute] int id, ResturantUpdateCommand resturant)
         {
             if (resturant == null)

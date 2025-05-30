@@ -30,6 +30,9 @@
         "StatusCode": 200
       }
     ],
+    "Tags": [
+      "Identity"
+    ],
     "EndpointName": "MapIdentityApi-api/identity/confirmEmail"
   },
   {
@@ -59,6 +62,9 @@
         ],
         "StatusCode": 400
       }
+    ],
+    "Tags": [
+      "Identity"
     ]
   },
   {
@@ -93,6 +99,9 @@
         ],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Identity"
     ]
   },
   {
@@ -129,6 +138,9 @@
         "MediaTypes": [],
         "StatusCode": 404
       }
+    ],
+    "Tags": [
+      "Identity"
     ]
   },
   {
@@ -159,6 +171,9 @@
         "MediaTypes": [],
         "StatusCode": 404
       }
+    ],
+    "Tags": [
+      "Identity"
     ]
   },
   {
@@ -195,6 +210,9 @@
         "MediaTypes": [],
         "StatusCode": 404
       }
+    ],
+    "Tags": [
+      "Identity"
     ]
   },
   {
@@ -219,6 +237,9 @@
         ],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Identity"
     ]
   },
   {
@@ -248,6 +269,9 @@
         ],
         "StatusCode": 400
       }
+    ],
+    "Tags": [
+      "Identity"
     ]
   },
   {
@@ -270,6 +294,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Identity"
     ]
   },
   {
@@ -299,7 +326,42 @@
         ],
         "StatusCode": 400
       }
+    ],
+    "Tags": [
+      "Identity"
     ]
+  },
+  {
+    "ContainingType": "Resturant.API.Controllers.IdentityController",
+    "Method": "AssignUserRoleAsync",
+    "RelativePath": "api/Identity/user-role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Resturant.Application.User.Command.UserAssign.UserAssignRoleCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resturant.API.Controllers.IdentityController",
+    "Method": "UnAssignUserRoleAsync",
+    "RelativePath": "api/Identity/user-role-remove",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Resturant.Application.User.Command.UserUnAssignRole.UserUnAssignRoleCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Resturant.API.Controllers.ResturantController",

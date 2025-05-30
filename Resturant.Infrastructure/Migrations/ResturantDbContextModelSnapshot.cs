@@ -199,6 +199,9 @@ namespace Resturant.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<TimeOnly>("Closing")
+                        .HasColumnType("time");
+
                     b.Property<string>("ContactNumber")
                         .HasColumnType("nvarchar(max)");
 
@@ -212,11 +215,23 @@ namespace Resturant.Infrastructure.Migrations
                     b.Property<bool>("HasDelivery")
                         .HasColumnType("bit");
 
+                    b.Property<string>("LogoUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<TimeOnly>("Opening")
+                        .HasColumnType("time");
+
+                    b.Property<string>("OwnerId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("OwnerId");
 
                     b.ToTable("Resturants");
                 });
@@ -239,6 +254,9 @@ namespace Resturant.Infrastructure.Migrations
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -348,6 +366,12 @@ namespace Resturant.Infrastructure.Migrations
 
             modelBuilder.Entity("Resturant.Domain.Entities.Resturant", b =>
                 {
+                    b.HasOne("Resturant.Domain.Entities.User", "Owner")
+                        .WithMany("Resturants")
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.OwnsOne("Resturant.Domain.Entities.Address", "Address", b1 =>
                         {
                             b1.Property<int>("ResturantId")
@@ -371,11 +395,18 @@ namespace Resturant.Infrastructure.Migrations
                         });
 
                     b.Navigation("Address");
+
+                    b.Navigation("Owner");
                 });
 
             modelBuilder.Entity("Resturant.Domain.Entities.Resturant", b =>
                 {
                     b.Navigation("Dishes");
+                });
+
+            modelBuilder.Entity("Resturant.Domain.Entities.User", b =>
+                {
+                    b.Navigation("Resturants");
                 });
 #pragma warning restore 612, 618
         }

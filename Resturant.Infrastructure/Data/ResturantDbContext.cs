@@ -17,6 +17,10 @@ namespace Resturant.Infrastructure.Data
                 .HasMany<Dish>(r => r.Dishes)
                 .WithOne()
                 .HasForeignKey(d => d.ResturantId);
+            modelBuilder.Entity<User>()
+                .HasMany(r => r.Resturants)
+                .WithOne(u => u.Owner)
+                .HasForeignKey(r => r.OwnerId);
         }
     }
 }

@@ -1029,6 +1029,7 @@
       "AutoMapper >= 13.0.1",
       "FluentValidation.AspNetCore >= 11.3.0",
       "MediatR >= 12.5.0",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 8.0.0",
       "Resturant.Domain >= 1.0.0"
     ]
@@ -1098,6 +1099,10 @@
           "MediatR": {
             "target": "Package",
             "version": "[12.5.0, )"
+          },
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.0, )"
           },
           "Microsoft.Extensions.Logging.Abstractions": {
             "target": "Package",

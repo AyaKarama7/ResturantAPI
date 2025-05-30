@@ -2,11 +2,13 @@ using Resturant.Infrastructure.Extensions;
 using Resturant.Application.Extensions;
 using Resturant.Domain.Entities;
 using Resturant.API.Extensions;
+using Resturant.Infrastructure.Seeders;
+
 namespace Resturant.API
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +19,10 @@ namespace Resturant.API
             builder.Services.AddApplicationServices();
             var app = builder.Build();
 
+            //seed the database
+            var scope = app.Services.CreateScope();
+            var seeder= scope.ServiceProvider.GetRequiredService<ISeeder>();
+            await seeder.SeedAsync();
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -26,7 +32,10 @@ namespace Resturant.API
 
             app.UseHttpsRedirection();
 
-            app.MapGroup("api/identity").MapIdentityApi<User>();
+            app.MapGroup("api/identity")
+               .WithTags("Identity")
+               .MapIdentityApi<User>();
+
             app.UseAuthentication();
             app.UseAuthorization();
 

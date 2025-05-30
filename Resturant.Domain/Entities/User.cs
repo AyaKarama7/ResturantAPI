@@ -9,5 +9,7 @@ namespace Resturant.Domain.Entities
 {
     public class User:IdentityUser
     {
+        public string? ImageUrl {  get; set; }
+        public List<Resturant> Resturants { get; set; } = new();
     }
 }

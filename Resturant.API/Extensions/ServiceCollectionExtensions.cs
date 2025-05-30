@@ -1,4 +1,5 @@
 ﻿using Microsoft.OpenApi.Models;
+using Resturant.Domain.Entities;
 
 namespace Resturant.API.Extensions
 {
@@ -32,6 +33,7 @@ namespace Resturant.API.Extensions
                        }
                 });
             });
+            
         }
     }
 }
