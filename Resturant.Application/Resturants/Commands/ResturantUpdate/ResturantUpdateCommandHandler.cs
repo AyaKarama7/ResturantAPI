@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace Resturant.Application.Resturants.Commands.ResturantUpdate
 {
     public class ResturantUpdateCommandHandler(IMapper mapper,
-        ILogger<ResturantCreateCommandHandler> logger, IResturantRepository resturantRepository)
+        ILogger<ResturantUpdateCommandHandler> logger, IResturantRepository resturantRepository)
         : IRequestHandler<ResturantUpdateCommand, int>
     {
         public async Task<int> Handle(ResturantUpdateCommand request, CancellationToken cancellationToken)

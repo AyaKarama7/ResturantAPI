@@ -34,7 +34,7 @@ namespace Resturant.API.Controllers
             return Ok(resturant);
         }
         [HttpDelete("{id:int}")]
-        [Authorize(Roles =UserRoles.Owner)]
+        [Authorize(Roles =UserRoles.Admin)]
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
             var IsDeleted = await mediator.Send(new ResturantDeleteCommand(id));

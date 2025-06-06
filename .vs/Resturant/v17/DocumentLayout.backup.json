@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "F:\\ITI\\Projects\\Resturant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D93D74A7-040D-44CB-9F8E-D491A9F0AB31}|Resturant.Application\\Resturant.Application.csproj|f:\\iti\\projects\\resturant\\resturant.application\\resturants\\commands\\resturantcreate\\resturantcreatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D93D74A7-040D-44CB-9F8E-D491A9F0AB31}|Resturant.Application\\Resturant.Application.csproj|solutionrelative:resturant.application\\resturants\\commands\\resturantcreate\\resturantcreatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64343F88-CA8A-4CB6-B181-26BF2E595F6C}|Resturant.APITests\\Resturant.APITests.csproj|f:\\iti\\projects\\resturant\\resturant.apitests\\controllers\\resturantcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64343F88-CA8A-4CB6-B181-26BF2E595F6C}|Resturant.APITests\\Resturant.APITests.csproj|solutionrelative:resturant.apitests\\controllers\\resturantcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215C0C60-77F4-4971-8153-2E8C6624FAE5}|Resturant.API\\Resturant.API.csproj|f:\\iti\\projects\\resturant\\resturant.api\\controllers\\resturantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{215C0C60-77F4-4971-8153-2E8C6624FAE5}|Resturant.API\\Resturant.API.csproj|solutionrelative:resturant.api\\controllers\\resturantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64343F88-CA8A-4CB6-B181-26BF2E595F6C}|Resturant.APITests\\Resturant.APITests.csproj|f:\\iti\\projects\\resturant\\resturant.apitests\\fakeauthentcationfiles\\testauthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64343F88-CA8A-4CB6-B181-26BF2E595F6C}|Resturant.APITests\\Resturant.APITests.csproj|solutionrelative:resturant.apitests\\fakeauthentcationfiles\\testauthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64343F88-CA8A-4CB6-B181-26BF2E595F6C}|Resturant.APITests\\Resturant.APITests.csproj|f:\\iti\\projects\\resturant\\resturant.apitests\\fakeauthentcationfiles\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64343F88-CA8A-4CB6-B181-26BF2E595F6C}|Resturant.APITests\\Resturant.APITests.csproj|solutionrelative:resturant.apitests\\fakeauthentcationfiles\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ResturantCreateCommandHandler.cs",
-              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\Resturant.Application\\Resturants\\Commands\\ResturantCreate\\ResturantCreateCommandHandler.cs",
-              "RelativeDocumentMoniker": "Resturant.Application\\Resturants\\Commands\\ResturantCreate\\ResturantCreateCommandHandler.cs",
-              "ToolTip": "F:\\ITI\\Projects\\Resturant\\Resturant.Application\\Resturants\\Commands\\ResturantCreate\\ResturantCreateCommandHandler.cs",
-              "RelativeToolTip": "Resturant.Application\\Resturants\\Commands\\ResturantCreate\\ResturantCreateCommandHandler.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBQAAAB9AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CustomWebApplicationFactory.cs",
+              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\Resturant.APITests\\FakeAuthentcationFiles\\CustomWebApplicationFactory.cs",
+              "RelativeDocumentMoniker": "Resturant.APITests\\FakeAuthentcationFiles\\CustomWebApplicationFactory.cs",
+              "ToolTip": "F:\\ITI\\Projects\\Resturant\\Resturant.APITests\\FakeAuthentcationFiles\\CustomWebApplicationFactory.cs*",
+              "RelativeToolTip": "Resturant.APITests\\FakeAuthentcationFiles\\CustomWebApplicationFactory.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA1wBgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T03:57:17.478Z",
+              "WhenOpened": "2025-06-06T23:36:40.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestAuthHandler.cs",
+              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\Resturant.APITests\\FakeAuthentcationFiles\\TestAuthHandler.cs",
+              "RelativeDocumentMoniker": "Resturant.APITests\\FakeAuthentcationFiles\\TestAuthHandler.cs",
+              "ToolTip": "F:\\ITI\\Projects\\Resturant\\Resturant.APITests\\FakeAuthentcationFiles\\TestAuthHandler.cs",
+              "RelativeToolTip": "Resturant.APITests\\FakeAuthentcationFiles\\TestAuthHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T23:34:49.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResturantControllerTests.cs",
+              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\Resturant.APITests\\Controllers\\ResturantControllerTests.cs",
+              "RelativeDocumentMoniker": "Resturant.APITests\\Controllers\\ResturantControllerTests.cs",
+              "ToolTip": "F:\\ITI\\Projects\\Resturant\\Resturant.APITests\\Controllers\\ResturantControllerTests.cs*",
+              "RelativeToolTip": "Resturant.APITests\\Controllers\\ResturantControllerTests.cs*",
+              "ViewState": "AgIAADAAAAAAAAAAAAAwwD4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T21:54:11.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResturantController.cs",
+              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\Resturant.API\\Controllers\\ResturantController.cs",
+              "RelativeDocumentMoniker": "Resturant.API\\Controllers\\ResturantController.cs",
+              "ToolTip": "F:\\ITI\\Projects\\Resturant\\Resturant.API\\Controllers\\ResturantController.cs",
+              "RelativeToolTip": "Resturant.API\\Controllers\\ResturantController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:50:44.672Z",
               "EditorCaption": ""
             }
           ]

@@ -12,7 +12,7 @@ namespace Resturant.Application.User
             {
                 throw new InvalidOperationException("User context is not present");
             }
-            if (user.Identity == null || user.Identity.IsAuthenticated)
+            if (user.Identity == null || user.Identity.IsAuthenticated==false)
             {
                 return null;
             }
