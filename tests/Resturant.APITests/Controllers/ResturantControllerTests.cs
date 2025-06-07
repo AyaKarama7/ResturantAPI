@@ -74,7 +74,7 @@ public class ResturantControllerTests: IClassFixture<WebApplicationFactory<Progr
         var client = _factory.CreateClient();
 
         // act
-        var response = await client.GetAsync($"/api/restaurants/{id}");
+        var response = await client.GetAsync($"/api/resturant/{id}");
 
         // Assert
         response.StatusCode.Should().Be(HttpStatusCode.OK);
