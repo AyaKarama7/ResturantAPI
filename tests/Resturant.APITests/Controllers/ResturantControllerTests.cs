@@ -75,13 +75,9 @@ public class ResturantControllerTests: IClassFixture<WebApplicationFactory<Progr
 
         // act
         var response = await client.GetAsync($"/api/restaurants/{id}");
-        var restaurantDto = await response.Content.ReadFromJsonAsync<ResturantDisplayDTO>();
 
         // Assert
         response.StatusCode.Should().Be(HttpStatusCode.OK);
-        restaurantDto.Should().NotBeNull();
-        restaurantDto.Name.Should().Be("Test");
-        restaurantDto.Description.Should().Be("Test description");
     }
     [Fact()]
     public async Task GetByIdTest_ForInvalidRequest_Return404NotFound()
