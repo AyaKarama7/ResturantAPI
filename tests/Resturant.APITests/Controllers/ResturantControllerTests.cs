@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc.Testing;
 using Xunit;
 using FluentAssertions;
+using Microsoft.EntityFrameworkCore;
+using Resturant.Domain.Entities;
 namespace Resturant.API.Controllers.Tests;
 public class ResturantControllerTests: IClassFixture<WebApplicationFactory<Program>>
 {
@@ -20,6 +22,7 @@ public class ResturantControllerTests: IClassFixture<WebApplicationFactory<Progr
         // // // // which will be used to send HTTP requests to the test server 
         #endregion
     }
+
     [Fact()]
     public async Task GetAllTest_ForValidRequest_Return200Ok()
     {
