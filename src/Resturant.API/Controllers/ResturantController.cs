@@ -17,9 +17,9 @@ namespace Resturant.API.Controllers
     {
         [HttpGet]
         [AllowAnonymous]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery]GetAllResturantsQuery query)
         {
-            var resturants = await mediator.Send(new GetAllResturantsQuery());
+            var resturants = await mediator.Send(query);
             return Ok(resturants);
         }
         [HttpGet("{id:int}")]
