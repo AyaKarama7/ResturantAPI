@@ -3,13 +3,27 @@ using Xunit;
 using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
 using Resturant.Domain.Entities;
+using Moq;
+using Resturant.Infrastructure.Seeders;
+using Microsoft.AspNetCore.TestHost;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.Extensions.DependencyInjection;
 namespace Resturant.API.Controllers.Tests;
 public class ResturantControllerTests: IClassFixture<WebApplicationFactory<Program>>
 {
     private readonly WebApplicationFactory<Program> _factory;
+    private readonly Mock<IResturantSeeder> _resturantSeeder;
     public ResturantControllerTests(WebApplicationFactory<Program> factory)
     {
-        _factory = factory;
+        _factory = factory.WithWebHostBuilder(builder =>
+        {
+            _ = builder.ConfigureTestServices(service =>
+            {
+                service.Replace(ServiceDescriptor.Scoped(typeof(IResturantSeeder), _ => _resturantSeeder.Object));
+            }
+            );
+        }
+        );
         #region what is _factory
         // This will create a test server for the API, 
         // allowing us to send HTTP requests to it.

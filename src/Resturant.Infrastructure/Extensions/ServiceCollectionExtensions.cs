@@ -24,7 +24,7 @@ public static class ServiceCollectionExtensions
         //    .AddApiEndpoints();
 
         services.AddScoped<ISeeder, RoleSeeder>();
-        
+        services.AddScoped<IResturantSeeder, ResturantSeeder>();
 
     }
 }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Resturant.Infrastructure.Seeders
 {
-    internal class ResturantSeeder(ResturantDbContext context) : ISeeder
+    internal class ResturantSeeder(ResturantDbContext context) : IResturantSeeder
     {
         public async Task SeedAsync()
         {
