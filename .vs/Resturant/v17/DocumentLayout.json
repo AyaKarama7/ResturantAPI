@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\ITI\\Projects\\Resturant\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44775BF0-84EC-4074-963C-D73079A94451}|tests\\Resturant.ApplicationTests\\Resturant.ApplicationTests.csproj|f:\\iti\\projects\\resturant\\tests\\resturant.applicationtests\\user\\usercontexttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44775BF0-84EC-4074-963C-D73079A94451}|tests\\Resturant.ApplicationTests\\Resturant.ApplicationTests.csproj|solutionrelative:tests\\resturant.applicationtests\\user\\usercontexttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserContextTests.cs",
+              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\tests\\Resturant.ApplicationTests\\User\\UserContextTests.cs",
+              "RelativeDocumentMoniker": "tests\\Resturant.ApplicationTests\\User\\UserContextTests.cs",
+              "ToolTip": "F:\\ITI\\Projects\\Resturant\\tests\\Resturant.ApplicationTests\\User\\UserContextTests.cs",
+              "RelativeToolTip": "tests\\Resturant.ApplicationTests\\User\\UserContextTests.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T00:12:17.002Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
