@@ -1,7 +1,5 @@
-name: resturants-api
+name: resturants-api-ci
 on: 
-  push:
-    branches: [main]
   pull_request:
     branches: [main]
   workflow_dispatch:
