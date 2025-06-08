@@ -14,10 +14,10 @@ namespace Resturant.Infrastructure.Seeders
     {
         public async Task SeedAsync()
         {
-            if(context.Database.GetPendingMigrations().Any())
-            {
-                await context.Database.MigrateAsync();
-            }
+            //if(context.Database.GetPendingMigrations().Any())
+            //{
+            //    await context.Database.MigrateAsync();
+            //}
             if (await context.Database.CanConnectAsync())
             {
                 if(!context.Roles.Any())
