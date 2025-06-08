@@ -176,3 +176,13 @@ F:\ITI\Projects\Resturant\src\Resturant.API\obj\Debug\net8.0\refint\Resturant.AP
 F:\ITI\Projects\Resturant\src\Resturant.API\obj\Debug\net8.0\Resturant.API.pdb
 F:\ITI\Projects\Resturant\src\Resturant.API\obj\Debug\net8.0\Resturant.API.genruntimeconfig.cache
 F:\ITI\Projects\Resturant\src\Resturant.API\obj\Debug\net8.0\ref\Resturant.API.dll
+F:\ITI\Projects\Resturant\src\Resturant.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\ITI\Projects\Resturant\src\Resturant.API\bin\Debug\net8.0\Serilog.dll
+F:\ITI\Projects\Resturant\src\Resturant.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+F:\ITI\Projects\Resturant\src\Resturant.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+F:\ITI\Projects\Resturant\src\Resturant.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+F:\ITI\Projects\Resturant\src\Resturant.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+F:\ITI\Projects\Resturant\src\Resturant.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+F:\ITI\Projects\Resturant\src\Resturant.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+F:\ITI\Projects\Resturant\src\Resturant.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+F:\ITI\Projects\Resturant\src\Resturant.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
