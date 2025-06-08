@@ -64,11 +64,7 @@ namespace Resturant.API.Controllers
             {
                 return BadRequest("Id mismatch");
             }
-            var updatedId = await mediator.Send(resturant);
-            if (updatedId == 0)
-            {
-                return NotFound();
-            }
+            await mediator.Send(resturant);
             return NoContent();
         }
     }
