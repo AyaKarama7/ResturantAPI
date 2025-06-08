@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Resturant.Domain.Constants;
 using Resturant.Infrastructure.Data;
 using System;
@@ -13,6 +14,10 @@ namespace Resturant.Infrastructure.Seeders
     {
         public async Task SeedAsync()
         {
+            if(context.Database.GetPendingMigrations().Any())
+            {
+                await context.Database.MigrateAsync();
+            }
             if (await context.Database.CanConnectAsync())
             {
                 if(!context.Roles.Any())
