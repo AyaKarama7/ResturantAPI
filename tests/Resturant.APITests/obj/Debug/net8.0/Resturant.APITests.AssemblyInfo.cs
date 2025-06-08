@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Resturant.APITests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+900d378702186fea932943ea075609a6f3f6c32b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+def429135fb387c3371c6640c53242a1fc44c203")]
 [assembly: System.Reflection.AssemblyProductAttribute("Resturant.APITests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Resturant.APITests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
