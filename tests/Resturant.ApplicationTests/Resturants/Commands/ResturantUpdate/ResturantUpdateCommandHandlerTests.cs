@@ -31,9 +31,8 @@ namespace Resturant.Application.Resturants.Commands.ResturantUpdate.Tests
             var handler = new ResturantUpdateCommandHandler(mapper.Object, logger.Object,
                 resturantRepository.Object);
             // Act
-            var result = await handler.Handle(command, CancellationToken.None);
+            await handler.Handle(command, CancellationToken.None);
             // Assert
-            result.Should().Be(1);
             resturantRepository.Verify(r => r.GetByIdAsync(command.Id), Times.Once);
             resturantRepository.Verify(r => r.UpdateAsync(resturant), Times.Once);
             mapper.Verify(m => m.Map(command, resturant), Times.Once);

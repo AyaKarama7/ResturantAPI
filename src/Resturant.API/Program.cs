@@ -4,6 +4,7 @@ using Resturant.Domain.Entities;
 using Resturant.API.Extensions;
 using Resturant.Infrastructure.Seeders;
 using Serilog;
+using Resturant.API.Middlewarea;
 
 namespace Resturant.API
 {
@@ -18,6 +19,7 @@ namespace Resturant.API
             builder.Services.AddInfrastructureServices(builder.Configuration);
 
             builder.Services.AddApplicationServices();
+            builder.Services.AddScoped<ErrorHandlingMiddleware>();
             //add serilog
             builder.Host.UseSerilog((context,config)=>
             {
@@ -35,6 +37,7 @@ namespace Resturant.API
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+            app.UseMiddleware<ErrorHandlingMiddleware>();
             app.UseSerilogRequestLogging();// capture logs about excuted requests
             app.UseHttpsRedirection();
 

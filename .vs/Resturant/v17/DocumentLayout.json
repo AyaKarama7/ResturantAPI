@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "F:\\ITI\\Projects\\Resturant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F743C80-F5AB-4AC2-9CA2-B78668B52227}|src\\Resturant.API\\Resturant.API.csproj|f:\\iti\\projects\\resturant\\src\\resturant.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2F743C80-F5AB-4AC2-9CA2-B78668B52227}|src\\Resturant.API\\Resturant.API.csproj|solutionrelative:src\\resturant.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{44775BF0-84EC-4074-963C-D73079A94451}|tests\\Resturant.ApplicationTests\\Resturant.ApplicationTests.csproj|f:\\iti\\projects\\resturant\\tests\\resturant.applicationtests\\resturants\\commands\\resturantupdate\\resturantupdatecommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44775BF0-84EC-4074-963C-D73079A94451}|tests\\Resturant.ApplicationTests\\Resturant.ApplicationTests.csproj|solutionrelative:tests\\resturant.applicationtests\\resturants\\commands\\resturantupdate\\resturantupdatecommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F743C80-F5AB-4AC2-9CA2-B78668B52227}|src\\Resturant.API\\Resturant.API.csproj|f:\\iti\\projects\\resturant\\src\\resturant.api\\logs\\resturant-api-20250608.log||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2F743C80-F5AB-4AC2-9CA2-B78668B52227}|src\\Resturant.API\\Resturant.API.csproj|solutionrelative:src\\resturant.api\\logs\\resturant-api-20250608.log||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{E8E589BF-4EF5-4C95-897D-8FD7DB019229}|src\\Resturant.Application\\Resturant.Application.csproj|f:\\iti\\projects\\resturant\\src\\resturant.application\\resturants\\commands\\resturantupdate\\resturantupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8E589BF-4EF5-4C95-897D-8FD7DB019229}|src\\Resturant.Application\\Resturant.Application.csproj|solutionrelative:src\\resturant.application\\resturants\\commands\\resturantupdate\\resturantupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F743C80-F5AB-4AC2-9CA2-B78668B52227}|src\\Resturant.API\\Resturant.API.csproj|f:\\iti\\projects\\resturant\\src\\resturant.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F743C80-F5AB-4AC2-9CA2-B78668B52227}|src\\Resturant.API\\Resturant.API.csproj|solutionrelative:src\\resturant.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F743C80-F5AB-4AC2-9CA2-B78668B52227}|src\\Resturant.API\\Resturant.API.csproj|f:\\iti\\projects\\resturant\\src\\resturant.api\\controllers\\resturantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F743C80-F5AB-4AC2-9CA2-B78668B52227}|src\\Resturant.API\\Resturant.API.csproj|solutionrelative:src\\resturant.api\\controllers\\resturantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E589BF-4EF5-4C95-897D-8FD7DB019229}|src\\Resturant.Application\\Resturant.Application.csproj|f:\\iti\\projects\\resturant\\src\\resturant.application\\resturants\\commands\\resturantupdate\\resturantupdatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8E589BF-4EF5-4C95-897D-8FD7DB019229}|src\\Resturant.Application\\Resturant.Application.csproj|solutionrelative:src\\resturant.application\\resturants\\commands\\resturantupdate\\resturantupdatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Resturant-API-20250608.log",
-              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\src\\Resturant.API\\Logs\\Resturant-API-20250608.log",
-              "RelativeDocumentMoniker": "src\\Resturant.API\\Logs\\Resturant-API-20250608.log",
-              "ToolTip": "F:\\ITI\\Projects\\Resturant\\src\\Resturant.API\\Logs\\Resturant-API-20250608.log",
-              "RelativeToolTip": "src\\Resturant.API\\Logs\\Resturant-API-20250608.log",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-06-08T14:54:24.026Z",
+              "DocumentIndex": 0,
+              "Title": "ResturantUpdateCommandHandlerTests.cs",
+              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\tests\\Resturant.ApplicationTests\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "tests\\Resturant.ApplicationTests\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommandHandlerTests.cs",
+              "ToolTip": "F:\\ITI\\Projects\\Resturant\\tests\\Resturant.ApplicationTests\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommandHandlerTests.cs",
+              "RelativeToolTip": "tests\\Resturant.ApplicationTests\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommandHandlerTests.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T15:58:04.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\src\\Resturant.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "src\\Resturant.API\\appsettings.Development.json",
-              "ToolTip": "F:\\ITI\\Projects\\Resturant\\src\\Resturant.API\\appsettings.Development.json",
-              "RelativeToolTip": "src\\Resturant.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-08T14:43:12.69Z",
+              "DocumentIndex": 1,
+              "Title": "ResturantUpdateCommand.cs",
+              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\src\\Resturant.Application\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommand.cs",
+              "RelativeDocumentMoniker": "src\\Resturant.Application\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommand.cs",
+              "ToolTip": "F:\\ITI\\Projects\\Resturant\\src\\Resturant.Application\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommand.cs",
+              "RelativeToolTip": "src\\Resturant.Application\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T15:45:36.384Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResturantUpdateCommandHandler.cs",
+              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\src\\Resturant.Application\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Resturant.Application\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommandHandler.cs",
+              "ToolTip": "F:\\ITI\\Projects\\Resturant\\src\\Resturant.Application\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommandHandler.cs",
+              "RelativeToolTip": "src\\Resturant.Application\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommandHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T15:35:54.944Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\src\\Resturant.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Resturant.API\\Program.cs",
-              "ToolTip": "F:\\ITI\\Projects\\Resturant\\src\\Resturant.API\\Program.cs",
-              "RelativeToolTip": "src\\Resturant.API\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAqwCEAAAANAAAAAAAAAA==",
+              "Title": "ResturantController.cs",
+              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\src\\Resturant.API\\Controllers\\ResturantController.cs",
+              "RelativeDocumentMoniker": "src\\Resturant.API\\Controllers\\ResturantController.cs",
+              "ToolTip": "F:\\ITI\\Projects\\Resturant\\src\\Resturant.API\\Controllers\\ResturantController.cs",
+              "RelativeToolTip": "src\\Resturant.API\\Controllers\\ResturantController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswEIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T21:13:28.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T15:27:47.155Z"
             }
           ]
         }

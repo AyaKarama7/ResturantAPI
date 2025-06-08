@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Resturant.Application.Resturants.Commands.ResturantUpdate
 {
-    public class ResturantUpdateCommand:IRequest<int>
+    public class ResturantUpdateCommand:IRequest
     {
         public int Id { get; set; }
         public string Name { get; set; } = default!;
