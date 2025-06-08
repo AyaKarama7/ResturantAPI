@@ -1092,3 +1092,12 @@ F:\ITI\Projects\Resturant\tests\Resturant.APITests\obj\Debug\net8.0\Resturant.AP
 F:\ITI\Projects\Resturant\tests\Resturant.APITests\obj\Debug\net8.0\ref\Resturant.APITests.dll
 F:\ITI\Projects\Resturant\tests\Resturant.APITests\bin\Debug\net8.0\Castle.Core.dll
 F:\ITI\Projects\Resturant\tests\Resturant.APITests\bin\Debug\net8.0\Moq.dll
+F:\ITI\Projects\Resturant\tests\Resturant.APITests\bin\Debug\net8.0\Serilog.dll
+F:\ITI\Projects\Resturant\tests\Resturant.APITests\bin\Debug\net8.0\Serilog.AspNetCore.dll
+F:\ITI\Projects\Resturant\tests\Resturant.APITests\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+F:\ITI\Projects\Resturant\tests\Resturant.APITests\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+F:\ITI\Projects\Resturant\tests\Resturant.APITests\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+F:\ITI\Projects\Resturant\tests\Resturant.APITests\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+F:\ITI\Projects\Resturant\tests\Resturant.APITests\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+F:\ITI\Projects\Resturant\tests\Resturant.APITests\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+F:\ITI\Projects\Resturant\tests\Resturant.APITests\bin\Debug\net8.0\Serilog.Sinks.File.dll

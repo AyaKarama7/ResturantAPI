@@ -12,57 +12,46 @@ namespace Resturant.API
     {
         public static async Task Main(string[] args)
         {
-            try
+            var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddPresentationServices();
+            //inject ifrastructure DbContext
+            builder.Services.AddInfrastructureServices(builder.Configuration);
+
+            builder.Services.AddApplicationServices();
+            builder.Services.AddScoped<ErrorHandlingMiddleware>();
+            //add serilog
+            builder.Host.UseSerilog((context, config) =>
             {
-                var builder = WebApplication.CreateBuilder(args);
+                config.ReadFrom.Configuration(context.Configuration);
+            });
+            var app = builder.Build();
 
-                builder.Services.AddPresentationServices();
-                //inject ifrastructure DbContext
-                builder.Services.AddInfrastructureServices(builder.Configuration);
-
-                builder.Services.AddApplicationServices();
-                builder.Services.AddScoped<ErrorHandlingMiddleware>();
-                //add serilog
-                builder.Host.UseSerilog((context, config) =>
-                {
-                    config.ReadFrom.Configuration(context.Configuration);
-                });
-                var app = builder.Build();
-
-                //seed the database 
-                var scope = app.Services.CreateScope();
-                var roleSeeder = scope.ServiceProvider.GetRequiredService<ISeeder>();
-                await roleSeeder.SeedAsync();
-                // Configure the HTTP request pipeline.
-                if (app.Environment.IsDevelopment())
-                {
-                    app.UseSwagger();
-                    app.UseSwaggerUI();
-                }
-                app.UseMiddleware<ErrorHandlingMiddleware>();
-                app.UseSerilogRequestLogging();// capture logs about excuted requests
-                app.UseHttpsRedirection();
-
-                app.MapGroup("api/identity")
-                   .WithTags("Identity")
-                   .MapIdentityApi<User>();
-
-                app.UseAuthentication();
-                app.UseAuthorization();
-
-
-                app.MapControllers();
-
-                app.Run();
-            }
-            catch (Exception ex)
+            //seed the database 
+            var scope = app.Services.CreateScope();
+            var roleSeeder = scope.ServiceProvider.GetRequiredService<ISeeder>();
+            await roleSeeder.SeedAsync();
+            // Configure the HTTP request pipeline.
+            if (app.Environment.IsDevelopment())
             {
-                Log.Fatal(ex, "Application start-up failed");
+                app.UseSwagger();
+                app.UseSwaggerUI();
             }
-            finally
-            {
-                Log.CloseAndFlush();
-            }
+            app.UseMiddleware<ErrorHandlingMiddleware>();
+            app.UseSerilogRequestLogging();// capture logs about excuted requests
+            app.UseHttpsRedirection();
+
+            app.MapGroup("api/identity")
+               .WithTags("Identity")
+               .MapIdentityApi<User>();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+
+            app.MapControllers();
+
+            app.Run();
         }
     }
 }
