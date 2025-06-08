@@ -1,5 +1,3 @@
-Of course, here is a complete `README.md` for your project.
-
 # Restaurant API
 
 This is a comprehensive RESTful API for a restaurant management system, built with .NET 8 and following the principles of Clean Architecture. The API allows for managing restaurants, their dishes, and user roles, with a secure authorization system.
