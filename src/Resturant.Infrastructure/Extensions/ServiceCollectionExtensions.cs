@@ -15,7 +15,8 @@ public static class ServiceCollectionExtensions
     public static void AddInfrastructureServices(this IServiceCollection services,IConfiguration configuration)
     {
         var connectionString=configuration.GetConnectionString("ResturantDb");
-        services.AddDbContext<ResturantDbContext>(options => options.UseSqlServer(connectionString));
+        services.AddDbContext<ResturantDbContext>(options => options.UseSqlServer(connectionString)
+        .EnableSensitiveDataLogging());
         services.AddScoped<IResturantRepository, ResturantRepository>();
         services.AddScoped<IDishRepository, DishRepository>();
         services.AddIdentityApiEndpoints<User>().AddRoles<IdentityRole>().AddEntityFrameworkStores<ResturantDbContext>();

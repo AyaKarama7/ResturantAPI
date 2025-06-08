@@ -12,7 +12,7 @@ using Resturant.Infrastructure.Data;
 namespace Resturant.Infrastructure.Migrations
 {
     [DbContext(typeof(ResturantDbContext))]
-    [Migration("20250606222800_m1")]
+    [Migration("20250607204501_m1")]
     partial class m1
     {
         /// <inheritdoc />

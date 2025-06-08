@@ -3,6 +3,7 @@ using Resturant.Application.Extensions;
 using Resturant.Domain.Entities;
 using Resturant.API.Extensions;
 using Resturant.Infrastructure.Seeders;
+using Serilog;
 
 namespace Resturant.API
 {
@@ -17,6 +18,11 @@ namespace Resturant.API
             builder.Services.AddInfrastructureServices(builder.Configuration);
 
             builder.Services.AddApplicationServices();
+            //add serilog
+            builder.Host.UseSerilog((context,config)=>
+            {
+                config.ReadFrom.Configuration(context.Configuration);
+            });
             var app = builder.Build();
 
             //seed the database
@@ -29,7 +35,7 @@ namespace Resturant.API
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseSerilogRequestLogging();// capture logs about excuted requests
             app.UseHttpsRedirection();
 
             app.MapGroup("api/identity")
