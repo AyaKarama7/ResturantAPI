@@ -29,8 +29,8 @@ namespace Resturant.API
 
             //seed the database 
             var scope = app.Services.CreateScope();
-            var roleSeeder = scope.ServiceProvider.GetRequiredService<ISeeder>();
-            await roleSeeder.SeedAsync();
+            var seeder = scope.ServiceProvider.GetRequiredService<ISeeder>();
+            await seeder.SeedAsync();
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
