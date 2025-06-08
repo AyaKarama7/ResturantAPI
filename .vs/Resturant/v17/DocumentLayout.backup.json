@@ -47,8 +47,7 @@
               "RelativeToolTip": "src\\Resturant.Application\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommandHandler.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAiwBIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T15:35:54.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T15:35:54.944Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "src\\Resturant.API\\Controllers\\ResturantController.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAswEIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T15:27:47.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T15:27:47.155Z"
             }
           ]
         }

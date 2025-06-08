@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "F:\\ITI\\Projects\\Resturant\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{44775BF0-84EC-4074-963C-D73079A94451}|tests\\Resturant.ApplicationTests\\Resturant.ApplicationTests.csproj|f:\\iti\\projects\\resturant\\tests\\resturant.applicationtests\\resturants\\commands\\resturantupdate\\resturantupdatecommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44775BF0-84EC-4074-963C-D73079A94451}|tests\\Resturant.ApplicationTests\\Resturant.ApplicationTests.csproj|solutionrelative:tests\\resturant.applicationtests\\resturants\\commands\\resturantupdate\\resturantupdatecommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8E589BF-4EF5-4C95-897D-8FD7DB019229}|src\\Resturant.Application\\Resturant.Application.csproj|f:\\iti\\projects\\resturant\\src\\resturant.application\\resturants\\commands\\resturantupdate\\resturantupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8E589BF-4EF5-4C95-897D-8FD7DB019229}|src\\Resturant.Application\\Resturant.Application.csproj|solutionrelative:src\\resturant.application\\resturants\\commands\\resturantupdate\\resturantupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ResturantUpdateCommandHandlerTests.cs",
+              "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\tests\\Resturant.ApplicationTests\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "tests\\Resturant.ApplicationTests\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommandHandlerTests.cs",
+              "ToolTip": "F:\\ITI\\Projects\\Resturant\\tests\\Resturant.ApplicationTests\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommandHandlerTests.cs",
+              "RelativeToolTip": "tests\\Resturant.ApplicationTests\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommandHandlerTests.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T15:58:04.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ResturantUpdateCommand.cs",
               "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\src\\Resturant.Application\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommand.cs",
               "RelativeDocumentMoniker": "src\\Resturant.Application\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommand.cs",
@@ -39,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ResturantUpdateCommandHandler.cs",
               "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\src\\Resturant.Application\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Resturant.Application\\Resturants\\Commands\\ResturantUpdate\\ResturantUpdateCommandHandler.cs",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ResturantController.cs",
               "DocumentMoniker": "F:\\ITI\\Projects\\Resturant\\src\\Resturant.API\\Controllers\\ResturantController.cs",
               "RelativeDocumentMoniker": "src\\Resturant.API\\Controllers\\ResturantController.cs",
